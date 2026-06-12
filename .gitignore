@@ -1,0 +1,24 @@
+# SmartTV CMS
+
+# Installer output / generated config
+/config/config.php
+/config/install.lock
+
+# Runtime
+/storage/logs/*
+/storage/cache/*
+!/storage/logs/.gitkeep
+!/storage/cache/.gitkeep
+
+# User uploads
+/assets/uploads/*
+!/assets/uploads/.gitkeep
+!/assets/uploads/logos/.gitkeep
+!/assets/uploads/covers/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
